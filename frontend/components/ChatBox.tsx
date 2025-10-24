@@ -55,7 +55,7 @@ export const ChatBox = () => {
         msg: string;
     }
     const [message, setMessage] = useState("");
-    const [messages, setMessages] = useState<Msg[]>([{ sender: "other", msg: "bruhh" }, { sender: "other", msg: "bruhh" }, { sender: "other", msg: "bruhh" }]);
+    const [messages, setMessages] = useState<Msg[]>([]);
     
     
     const handleSend = () => {
